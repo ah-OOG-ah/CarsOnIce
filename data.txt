@@ -1,0 +1,12 @@
+
+Coeficcients of friction: from https://hpwizard.com/tire-friction-coefficient.html, citing
+https://books.google.ca/books?id=Blp2D1DteTYC&lpg=PR1&dq=theory%20of%20ground%20vehicles&hl=fr&pg=PR1#v=onepage&q&f=false
+Terrain                     Peak (static)  Sliding (kinetic)
+Asphalt and concrete (dry)  0.80 − 0.90    0.75
+Asphalt (wet)               0.50 − 0.70    0.45 − 0.60
+Concrete (wet)              0.80           0.70
+Gravel                      0.60           0.55
+Earth road (dry)            0.68           0.65
+Earth road (wet)            0.55           0.40 − 0.50
+Snow (hard-packed)          0.20           0.15
+Ice                         0.10           0.07
