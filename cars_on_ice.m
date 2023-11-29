@@ -6,8 +6,11 @@ clc
 % Actually 1 less than the minimum radius because MATLAB is... unintellegent
 minRad = 100;
 maxRad = 300;
+speed = 40;
+fricton_coef = 0.8;
+angle = deg2rad(3);
 angles = zeros(1, maxRad - minRad);
-parfor radius = minRad + 1:maxRad; angles(radius - minRad) = rad2deg(find_bank(40, 0.8, radius)); end;
+parfor radius = minRad + 1:maxRad; angles(radius - minRad) = find_bank(speed, fricton_coef, radius, -1); end
 plot(minRad + 1:maxRad, angles);
 xlabel("Turning Radius (m)");
 ylabel("Bank Angle (deg)");
